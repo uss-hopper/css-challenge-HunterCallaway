@@ -15,6 +15,10 @@ html, body {
 	padding: 0 2rem;
 }
 
+.clearfix {
+	clear: both;
+}
+
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
@@ -75,8 +79,9 @@ header, h1, em {
 
 .instructions-wrapper {
 	border: thick solid black;
-
 }
+
+
 
 
 
