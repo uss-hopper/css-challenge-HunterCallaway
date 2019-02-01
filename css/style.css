@@ -10,19 +10,10 @@ html, body {
 	box-sizing: border-box;
 }
 
-header {
-	background-color: #3a3b3d;
-	color: #4aed38;
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
 }
-
-header, h1, em {
-	display: inline-block;
-}
-
-.instructions-wrapper {
-	border: thick solid black;
-}
-
 
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
@@ -67,5 +58,27 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+body {
+	overflow-x: hidden;
+}
 
+header {
+	background-color: #3a3b3d;
+	color: #4aed38;
+	font-family: "Cousine";
+
+}
+
+header, h1, em {
+	display: inline-block;
+}
+
+.instructions-wrapper {
+	border: thick solid black;}
+
+
+IMG {
+		margin-right: auto;
+		margin-left: auto;
+}
 
