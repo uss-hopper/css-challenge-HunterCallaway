@@ -70,8 +70,11 @@ header {
 	background-color: #3a3b3d;
 	color: #4aed38;
 	font-family: "Cousine";
-	justify-content: space-between;
+	width: 100%;
+}
 
+header em {
+	padding-left: 25px;
 }
 
 header, h1, em {
@@ -80,22 +83,20 @@ header, h1, em {
 
 .instructions-wrapper {
 	border: thick solid black;
-}
-
-.instructions-wrapper {
-	left: 25px;
-	display: inline-block;
+	display: block;
+	padding-left: 25px;
 }
 
 .instructions-wrapper img {
 	float: right;
+	margin: 0px 25px 25px 25px;
 	max-height: 30%;
 	max-width: 30%;
-	vertical-align: center;
 }
 
 .instructions-wrapper ol {
 	float: left;
+	width: 33em;
 }
 
 img {
