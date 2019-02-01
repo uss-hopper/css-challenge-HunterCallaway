@@ -13,26 +13,23 @@ html, body {
 header {
 	background-color: #3a3b3d;
 	color: #4aed38;
-	font-family: "Lucida Grande";
+	font-family: "Ascender Sans Mono";
+	margin: 0px;
+}
+
+h1 {
+	font-size: 36px;
 }
 
 
-.container {
-	margin: 0 auto;
-	padding: 0 2rem;
-}
-
-.clearfix {
-	clear: both;
+header, h1, em {
+	display: inline-block;
 }
 
 .instructions-wrapper {
 	border: thick solid black;
 }
 
-.instructions-wrapper.image {
-	left: 25px;
-}
 
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
