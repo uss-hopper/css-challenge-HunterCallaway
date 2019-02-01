@@ -14,9 +14,6 @@ header {
 	background-color: #3a3b3d;
 	color: #4aed38;
 	font-family: "Lucida Grande";
-	margin: 10px 15px;
-	display: inline-block;
-	vertical-align: center;
 }
 
 
@@ -25,18 +22,16 @@ header {
 	padding: 0 2rem;
 }
 
-.sfooter-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 .clearfix {
 	clear: both;
 }
 
 .instructions-wrapper {
 	border: thick solid black;
+}
+
+.instructions-wrapper.image {
+	left: 25px;
 }
 
 /* create a responsive container */
