@@ -82,22 +82,19 @@ header, h1, em {
 	border: thick solid black;
 }
 
-.instructions-wrapper  {
+.instructions-wrapper {
 	left: 25px;
 	display: inline-block;
-	align-content: center;
-	vertical-align: middle;
 }
 
 .instructions-wrapper img {
 	float: right;
 	max-height: 30%;
 	max-width: 30%;
-	align: center;
 	vertical-align: center;
 }
 
-.instructions-content {
+.instructions-wrapper ol {
 	float: left;
 }
 
