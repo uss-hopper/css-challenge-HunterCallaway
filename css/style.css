@@ -70,6 +70,7 @@ header {
 	background-color: #3a3b3d;
 	color: #4aed38;
 	font-family: "Cousine";
+	margin-bottom: 50px;
 	width: 100%;
 }
 
@@ -112,7 +113,7 @@ img {
 .about-me {
 	background-color: #0404fc;
 	color: white;
-	display: block;
+	display: inline-block;
 	margin-top: 50px;
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -120,10 +121,15 @@ img {
 }
 
 .about-me img {
+	border: 2px solid white;
 	float: left;
+	margin-right: 30px;
 	max-height: 35%;
 	max-width: 35%;
-	padding: 20px 15px 20px 50px;
+}
+
+.about-me h2 p {
+	float: right;
 }
 
 
