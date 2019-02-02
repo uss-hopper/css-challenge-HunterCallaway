@@ -158,11 +158,12 @@ section table {
 
 td {
 	font-weight: normal;
-	font-family: "Courier";
+	padding: 8px;
 }
 
 th {
 	font-weight: bold;
+	padding: 8px;
 }
 
 td, th {
@@ -171,6 +172,11 @@ td, th {
 
 table {
 	border: none;
+}
+
+.form-wrapper {
+	background-color: #3a3b3d;
+	width: 100%;
 }
 
 
