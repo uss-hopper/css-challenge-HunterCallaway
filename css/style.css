@@ -172,10 +172,12 @@ td, th {
 
 table {
 	border-collapse: collapse;
+	margin-bottom: 20px;
 }
 
 .form-wrapper {
 	background-color: #3a3b3d;
+	padding: 20px;
 	width: 100%;
 }
 
@@ -186,9 +188,19 @@ table {
 .form-wrapper h2, form {
 	background-color: #046404;
 	color: #04f104;
+	margin: 0;
 }
 
+label {
+	display: block;
+}
 
+button {
+	background: #04f104;
+	border-radius: 0;
+	color: black;
+	font-family: Courier;
+}
 
 
 
