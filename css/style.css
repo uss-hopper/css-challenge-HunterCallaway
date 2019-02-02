@@ -98,6 +98,8 @@ header, h1, em {
 
 .instructions-wrapper ol {
 	float: left;
+	font-family: "Courier";
+	font-weight: normal;
 	width: 33em;
 }
 
@@ -130,6 +132,22 @@ img {
 
 .about-me h2 p {
 	float: right;
+}
+
+.about-me p {
+	font-weight: normal;
+	font-family: "Courier";
+}
+
+.about-me span {
+	color: #d1ce46;
+	font-style: italic;
+}
+
+section h2 {
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
 
 
