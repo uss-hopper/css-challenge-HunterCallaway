@@ -150,6 +150,29 @@ section h2 {
 	padding-bottom: 5px;
 }
 
+section table {
+	background-color: #3a3b3d;
+	color: #4aed38;
+	width: 100%;
+}
+
+td {
+	font-weight: normal;
+	font-family: "Courier";
+}
+
+th {
+	font-weight: bold;
+}
+
+td, th {
+	border: solid 1px white;
+}
+
+table {
+	border: none;
+}
+
 
 
 
